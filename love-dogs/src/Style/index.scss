@@ -1,0 +1,20 @@
+@import './pages/mainPage';
+@import './pages/breed';
+
+body {
+    text-align: center;
+    // overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #0e0bce;
+
+    &:active {
+        color: rgb(77, 192, 180);
+    }
+
+    &:visited {
+        color: #7B00DB;
+    }
+}

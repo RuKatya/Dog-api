@@ -1,0 +1,21 @@
+.mainPage {
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+
+    a {
+        width: 60%;
+        background-color: rgb(212, 241, 255);
+        padding: 3% 2%;
+        margin: 4% 0%;
+        text-transform: uppercase;
+        transition: all 0.25s;
+        border-radius: 0.5rem;
+
+        &:hover {
+            background-color: rgb(187, 229, 250);
+        }
+    }
+}
